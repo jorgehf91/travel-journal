@@ -22,3 +22,22 @@
     margin-top: 2px;
     font-size: 14.4px;
 }
+
+/*DESTINIES */
+
+.destinies {
+    display: flex;
+}
+
+.destinies--img > img {
+    height: 168px;
+    width: 125px;
+}
+
+.destinies--location > * {
+    display: inline-block;
+}
+
+.destinies--date > * {
+    display: inline-block;
+}
