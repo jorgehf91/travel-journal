@@ -1,11 +1,11 @@
 import React from 'react';
 import Navbar from './components/Navbar';
-import Destinies from './components/Destinies';
-import dataDestinies from './data';
+import Destinations from './components/Destinations';
+import dataDestinations from './data';
 
 export default function App (){
-    let listofDestinies = dataDestinies.map( (data) => {
-            return <Destinies 
+    let listofDestinations = dataDestinations.map( (data) => {
+            return <Destinations 
                 key={data.id}
                 data={data}
             />
@@ -16,8 +16,8 @@ export default function App (){
     return (
         <div>
             <Navbar />
-            <div className='destinies-list'>
-                {listofDestinies}
+            <div className='destinations-list'>
+                {listofDestinations}
             </div>
         </div>
         
