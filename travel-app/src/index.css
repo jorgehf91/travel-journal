@@ -29,6 +29,7 @@
 .destinies {
     display: flex;
     padding: 15px;
+    justify-content: center;
 }
 
 
