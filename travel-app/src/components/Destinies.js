@@ -13,7 +13,7 @@ export default function Destinies(props) {
                 <div className='destinies--location'>
                     <FontAwesomeIcon className='destinies--tag' icon={faLocationDot} />
                     <h2 className='destinies--country'> {props.data.location}</h2>
-                    <a href={props.data.googleMapsUrl}>View on Google Maps</a>
+                    <a href={props.data.googleMapsUrl} target="_blank">View on Google Maps</a>
                 </div>
 
                 <div className='destinies--title'>
